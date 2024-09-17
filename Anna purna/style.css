@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    --backgroung-color:#F95738;
+    --text-color:#EBEBD3;
+    --button-color:#083D77;
+    --light-container:#F4D35E;
+    --middark-container:#EE964B;
+    --white-bg:#ededed;
+}
+
+.ms-6 {
+    margin-left: 100px;
+}
+
+/* navbar */
+body{
+    background: var(--backgroung-color);
+}
+.cust-color{
+    background: var(--middark-container);
+    
+}
+.cust-ft-color{
+    color: var(--text-color);
+}
+.cust-ft-color li a{
+    color: var(--text-color);
+}
+.cust-brand{
+    text-decoration: none;
+
+}
+.mt-neg{
+    margin-top: -8px;
+}
+
+.cust-ft-color li :hover{
+    cursor: pointer;
+  
+   color: var(--light-container);
+   
+}
+
+/* first crousal */
+.custom-height {
+    height: 720px; 
+    width: 100%; 
+    object-fit: cover; 
+   
+    filter: brightness(0.6);
+}
+.cust-btn{
+    margin: 10px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: none;
+}
+.cust-btn:hover{
+    background-color: var(--text-color);
+    color: var(--button-color);
+}
+
+.position-relative {
+    position: relative;
+  }
+  
+  .overlay-content {
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+  }
+  
+  .overlay-content h2,
+  .overlay-content p {
+    color: white; 
+  }
+
+/* numbers */
+.stat-box {
+    background-color: #ededed;
+
+
+  }
+  
+/* processs */
+.cust-bg{
+    background-color:var(--white-bg) ;
+}
